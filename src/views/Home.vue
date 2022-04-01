@@ -1,31 +1,31 @@
 <template>
   <div>
     <nav-bar-menu />
-      <section id="inico">
-        <profile-pic src="src/assets/profile-2021.jpeg" alt=""></profile-pic>
-      </section>
-    <section id="academica">
-      <academica></academica>
-    </section>
-    <section id="tecnica">
-      <tecnica></tecnica>
-    </section>
+    <topo></topo>
+    <pessoal></pessoal>
+    <academica></academica>
+    <tecnica></tecnica>
+    <marcas></marcas>
   </div>
 </template>
 
 <script>
-
-import ProfilePic from "../components/profilePic.vue";
 import navBarMenu from "../components/navBarMenu.vue";
 import Tecnica from "../components/tecnica.vue";
-import academica from "../components/tecnica.vue";
+import academica from "../components/academica.vue";
+import topo from "../components/topo.vue";
+import pessoal from "../components/pessoal.vue";
+import Marcas from "../components/marcas.vue";
 export default {
   name: "Home",
-  components: {Tecnica, ProfilePic,navBarMenu,academica}
+  components: {Marcas, Tecnica,navBarMenu,academica,topo,pessoal},
+  created() {
 
+  }
 }
 </script>
 
 <style scoped>
 
 </style>
+

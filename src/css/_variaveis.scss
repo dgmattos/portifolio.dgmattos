@@ -1,2 +1,21 @@
-$primary:#2c3e50;
-$white: #939da7;
+$primary: #3e87cf;
+$fantasma: #939da7;
+$white: #fafafa;
+$success: #198754FF;
+$info: #0DCAF0FF;
+$warning: #FFC107FF;
+$danger: #DC3545FF;
+$light: #F8F9FAFF;
+$dark: #2c3e50;
+$secondary:#6C757DFF;
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+        "fantasma": $fantasma
+);

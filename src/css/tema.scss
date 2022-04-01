@@ -1,8 +1,13 @@
 @import "variaveis";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+*{
+  color: $white;
+}
+
 body{
-  background-color: $primary;
+  background-color: $dark;
   padding-top: 30px;
 }
 
@@ -13,4 +18,41 @@ body{
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#app section{
+  padding: 40px;
+}
+
+.fant *{
+  color: $fantasma;
+}
+
+
+.h1{
+  font-size: 2rem;
+}
+.h2{
+  font-size: 1.6rem;
+}
+
+.h3{
+  font-size: 1.4rem;
+}
+
+.icon-fant{
+  font-size: 3rem;
+}
+
+.fant-border{
+  border:3px $fantasma solid;
+  border-radius: 6px;
+}
+
+.text-justfy{
+  text-align: justify;
+}
+
+.text-bold{
+  font-weight: bold;
 }
