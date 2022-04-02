@@ -8,6 +8,8 @@ $danger: #DC3545FF;
 $light: #F8F9FAFF;
 $dark: #2c3e50;
 $secondary:#6C757DFF;
+$purple: #690de6;
+$dark2: rgba(44, 62, 80, 0.49);
 $theme-colors: (
         "primary": $primary,
         "secondary": $secondary,
@@ -17,5 +19,7 @@ $theme-colors: (
         "danger": $danger,
         "light": $light,
         "dark": $dark,
-        "fantasma": $fantasma
+        "fantasma": $fantasma,
+        "purple":$purple,
+        "dark2":$dark2
 );

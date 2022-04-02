@@ -4,6 +4,7 @@
       <h2 class="h2">
         Formação Técnica recente
       </h2>
+      <hr class="tt-bar">
       <div class="row g3">
         <div class="col-12 p-3 col-sm-3  ms-auto me-auto animate__animated animate__fadeInUp" v-for="item in cursos">
           <div class="d-flex p-3 h-100 flex-column justify-content-center fant-border">

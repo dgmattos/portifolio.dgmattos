@@ -2,9 +2,12 @@
   <div>
     <nav-bar-menu />
     <topo></topo>
+    <wave class="bg-fantasma"/>
     <pessoal></pessoal>
+    <wave fill="#939da7"/>
     <academica></academica>
     <tecnica></tecnica>
+    <wave class="bg-fantasma"/>
     <marcas></marcas>
   </div>
 </template>
@@ -16,9 +19,10 @@ import academica from "../components/academica.vue";
 import topo from "../components/topo.vue";
 import pessoal from "../components/pessoal.vue";
 import Marcas from "../components/marcas.vue";
+import Wave from "../components/wave.vue";
 export default {
   name: "Home",
-  components: {Marcas, Tecnica,navBarMenu,academica,topo,pessoal},
+  components: {Wave, Marcas, Tecnica,navBarMenu,academica,topo,pessoal},
   created() {
 
   }
