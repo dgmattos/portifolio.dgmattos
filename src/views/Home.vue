@@ -9,6 +9,7 @@
     <tecnica></tecnica>
     <wave class="bg-fantasma"/>
     <marcas></marcas>
+    <footerCopyRight></footerCopyRight>
   </div>
 </template>
 
@@ -20,9 +21,10 @@ import topo from "../components/topo.vue";
 import pessoal from "../components/pessoal.vue";
 import Marcas from "../components/marcas.vue";
 import Wave from "../components/wave.vue";
+import footerCopyRight from "../components/footerCopyRight.vue";
 export default {
   name: "Home",
-  components: {Wave, Marcas, Tecnica,navBarMenu,academica,topo,pessoal},
+  components: {Wave, Marcas, Tecnica,navBarMenu,academica,topo,pessoal,footerCopyRight},
   created() {
 
   }

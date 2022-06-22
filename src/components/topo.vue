@@ -17,7 +17,7 @@ export default {
 
   data:function(){
     return {
-      src:'src/assets/profile-2021.jpeg'
+      src:'https://dgmattos.com.br/profile-2021.jpeg'
     }
   }
 }

@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <a :class="brandClass" class="navbar-brand d-flex align-items-center text-fantasma" href="#inicio">
         <div class="icon-profile">
-          <img src="src/assets/profile-2021.jpeg" alt="DEIVID G MATTOS">
+          <img src="https://dgmattos.com.br/profile-2021.jpeg" alt="DEIVID G MATTOS">
         </div>
          <span class="text-fantasma ms-2">DEIVID G. MATTOS</span>
       </a>
